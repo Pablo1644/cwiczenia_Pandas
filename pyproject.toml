@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pwzn"
+version = "0.1.0"
+description = ""
+authors = ["Pablo1644 <pawel.wagrodzki@gmail,com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numba = "^0.56.4"
+numpy = "^1.23.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
